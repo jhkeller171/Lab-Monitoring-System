@@ -2,7 +2,7 @@ const int soundPin = A0;
 
 void setup(){
   pinMode(LED_BUILTIN, OUTPUT);//set ledPin as OUTPUT
-  Serial.begin(9600); //initialize the serial communication as 9600 bps
+  Serial.begin(31250); //initialize the serial communication as 9600 bps
 }
 
 void loop(){
